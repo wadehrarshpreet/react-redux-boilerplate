@@ -8,7 +8,7 @@
     "init_prod": "rimraf ./dist/* && webpack --config=webpack.config.prod.js",
     "start": "npm run init && webpack-dev-server -d",
     "prod": "npm run init_prod && webpack-dev-server --config=webpack.config.prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack"
   },
   "author": "Arshpreet Wadehra",
   "license": "ISC",

@@ -1,7 +1,7 @@
 import 'babel-polyfill'; //for old browser compatible
 import React from 'react';
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Router, Switch, Route } from 'react-router-dom';
 import {createStore, applyMiddleware} from 'redux';
 import promise from 'redux-promise';
 import {Provider} from 'react-redux';
