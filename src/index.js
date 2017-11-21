@@ -5,7 +5,7 @@ import { Router, Switch, Route } from 'react-router-dom';
 import {createStore, applyMiddleware} from 'redux';
 import promise from 'redux-promise';
 import {Provider} from 'react-redux';
-import AppLayout from './Component/AppLayout';
+import AppLayout from './Layouts/AppLayout';
 import Home from './Component/Home';
 import About from './Component/About';
 import Contact from './Component/Contact';
@@ -26,11 +26,8 @@ const history = createHashHistory({
 
 ReactDOM.render(
   <Provider store={store}>
-  <Router history={history}>
-    <Switch>
-      <Route exact path="/" render={() => <AppLayout active="home"><Home /></AppLayout>}/>
-      <Route exact path="/about" render={() => <AppLayout active="about"><About /></AppLayout>}/>
-      <Route exact path="/contact" render={() => <AppLayout active="contact"><Contact /></AppLayout>}/>
-    </Switch>
-  </Router>
-</Provider>, document.getElementById("root"));
+    <Router history={history}>
+	     <AppLayout />
+    </Router>
+  </Provider>
+, document.getElementById("root"));

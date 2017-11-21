@@ -1,5 +1,5 @@
 import React from 'react';
-export default class Contact extends React.Component{
+export class Home extends React.Component{
   constructor(props){
     super(props);
     this.state = {}
@@ -7,7 +7,7 @@ export default class Contact extends React.Component{
   render(){
     return(
       <div className="container">
-        <h2>Contact:me@wadehrarshpreet.com</h2>
+        <h2>This is React Redux BoilerPlace!</h2>
       </div>
     )
   }
