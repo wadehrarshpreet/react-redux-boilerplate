@@ -1,5 +1,5 @@
 import React from 'react';
-export class Contact extends React.Component{
+export default class Contact extends React.Component{
   constructor(props){
     super(props);
     this.state = {}

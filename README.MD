@@ -1,5 +1,5 @@
 # react-redux-boilerplate
-##### Boilerplate and guide for a React/Sass/Redux/React-Router build.
+##### React/Sass/Redux/React-Router/Lazy-Loading/File-Splitting/Webpack 4
 
 
 ## Getting Started
@@ -18,9 +18,9 @@
     ```
     Browse http://localhost:3000 to view project
 
-* Build for Production(minify)
+* Build for Production
     ```
-    npm run init_prod
+    npm run build:prod
     ```
 
 ## Links
