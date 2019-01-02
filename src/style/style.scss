@@ -1,5 +1,9 @@
-@import 'vendors/normalize.css';
+@import "vendors/normalize.css";
 
-h2 {
-    font-size: 20px;
+:root {
+	--theme: #bfb7b71a;
+}
+
+body {
+	background-color: var(--theme);
 }
