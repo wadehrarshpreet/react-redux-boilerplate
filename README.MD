@@ -20,7 +20,7 @@
 
 * Build for Production
     ```
-    npm run build:prod
+    npm run build
     ```
 
 ## Links
